@@ -51,3 +51,4 @@ struct SegmentTree {
     void update(int idx, int val) { update(1, 1, n, idx, val); }
     int query(int l, int r) { return query(1, 1, n, l, r); }
 };
+
